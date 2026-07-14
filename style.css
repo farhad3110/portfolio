@@ -76,3 +76,31 @@ section{
     font-size:20px;
     box-shadow:0 0 5px gray;
 }
+#projects{
+    margin-top:40px;
+}
+
+
+.project-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+
+.project-card{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+}
+
+
+.project-card h3{
+    color:blue;
+}
+
+
+.project-card p{
+    font-size:16px;
+}
