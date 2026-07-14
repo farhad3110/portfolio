@@ -181,3 +181,63 @@ nav a{
     font-size:18px;
     line-height:1.6;
 }
+/* Home Section */
+
+#home{
+    padding:50px;
+}
+
+
+.home-container{
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+
+.home-text{
+
+    width:50%;
+}
+
+
+.home-text h1{
+
+    font-size:40px;
+    color:blue;
+}
+
+
+.home-text h2{
+
+    font-size:25px;
+}
+
+
+.home-text p{
+
+    font-size:18px;
+    line-height:1.6;
+}
+
+
+.home-image img{
+
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+
+.btn{
+
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 20px;
+    background:black;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
