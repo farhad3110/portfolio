@@ -3,21 +3,14 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "portfolio_db";
+$database = "portfolio_db";
 
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password, $database);
 
-if (!$conn) {
-    die("Connection Failed: " . mysqli_connect_error());
-}
-
-$sql = "SELECT * FROM students";
-
-$result = mysqli_query($conn, $sql);
-
-while($row = mysqli_fetch_assoc($result))
-{
-    echo $row["id"] . " - " . $row["name"] . " - " . $row["email"] . " - " . $row["age"] . "<br>";
+if ($conn) {
+    echo "<h2 style='color:green;'>Database Connected Successfully!</h2>";
+} else {
+    echo "<h2 style='color:red;'>Connection Failed!</h2>";
 }
 
 ?>
