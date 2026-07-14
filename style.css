@@ -34,3 +34,20 @@ nav a{
 nav a:hover{
     color:yellow;
 }
+section{
+    padding:60px;
+}
+
+#about{
+    background-color:white;
+}
+
+#about h2{
+    color:#333;
+    font-size:35px;
+}
+
+#about p{
+    font-size:20px;
+    line-height:35px;
+}
