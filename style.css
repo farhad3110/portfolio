@@ -128,3 +128,29 @@ section{
     color:black;
     text-decoration:none;
 }
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:black;
+    padding:15px;
+}
+
+
+nav h2{
+    color:white;
+}
+
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
