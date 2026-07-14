@@ -51,3 +51,28 @@ section{
     font-size:20px;
     line-height:35px;
 }
+#skills{
+    background-color:#f4f4f4;
+    padding:60px;
+}
+
+#skills h2{
+    text-align:center;
+    color:#333;
+    font-size:35px;
+}
+
+#skills ul{
+    list-style:none;
+    padding:0;
+}
+
+#skills li{
+    background:white;
+    margin:15px auto;
+    padding:15px;
+    width:300px;
+    border-radius:8px;
+    font-size:20px;
+    box-shadow:0 0 5px gray;
+}
